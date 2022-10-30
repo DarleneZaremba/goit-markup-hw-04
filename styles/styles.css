@@ -563,8 +563,9 @@ header {
 
   margin-right: 10px;
 }
-.footer-icon-item:hover {
+.footer-icon-link:hover {
   background-color: var(--accent-color);
+ 
 }
 /* PORTFOLIO PAGE */
 
