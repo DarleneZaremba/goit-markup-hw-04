@@ -114,7 +114,10 @@ header {
 }
 .site-nav .link.current {
   color: var(--accent-color);
+
 }
+
+
 
 .contact-flex {
   display: flex;
@@ -154,9 +157,17 @@ header {
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
+  
+
 }
 
+.contact-link:hover .envelope{
+  fill: var(--accent-color);
+}
 
+.contact-link:hover .smartphone{
+  fill: var(--accent-color);
+}
 
 /* HERO */
 
