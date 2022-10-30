@@ -136,7 +136,9 @@ header {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+
 }
 
 .smartphone,
@@ -145,11 +147,16 @@ header {
   fill: #757575;
 }
 
+
+
+
 /* styles for headers contacts */
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
 }
+
+
 
 /* HERO */
 
@@ -636,3 +643,9 @@ header {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
+
+
+
+
+
+
